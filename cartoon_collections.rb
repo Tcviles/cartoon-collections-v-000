@@ -15,5 +15,5 @@ def long_planeteer_calls(list)
 end
 
 def find_the_cheese(list)
-  list.find(ifnone=nil){|item| item=="cheddar"||item=="gouda"||item=="camembert"}
+  list.find{|item| item=="cheddar"||item=="gouda"||item=="camembert"}
 end
